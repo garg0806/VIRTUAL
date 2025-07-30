@@ -14,7 +14,7 @@ const port=process.env.PORT || 5000;
 app.use(express.json());
 app.use(cookieParser());
 app.use (cors({
-    origin:"https://virtual-i802.onrender.com",
+    origin:"https://virtualfrontend-qozf.onrender.com",
     credentials:true
 }));
 
